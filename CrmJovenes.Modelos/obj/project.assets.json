@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CrmJovenes.Utilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CrmJovenes.Utilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrmJovenes.Utilidades.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CrmJovenes.Utilidades/1.0.0": {
+      "type": "project",
+      "path": "../CrmJovenes.Utilidades/CrmJovenes.Utilidades.csproj",
+      "msbuildProject": "../CrmJovenes.Utilidades/CrmJovenes.Utilidades.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CrmJovenes.Utilidades >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\EUREKA BRAIN\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj": {
+              "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

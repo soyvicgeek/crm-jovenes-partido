@@ -1,0 +1,12 @@
+C:\net\crmjovenes\CrmJovenes.Utilidades\bin\Debug\net7.0\CrmJovenes.Utilidades.deps.json
+C:\net\crmjovenes\CrmJovenes.Utilidades\bin\Debug\net7.0\CrmJovenes.Utilidades.dll
+C:\net\crmjovenes\CrmJovenes.Utilidades\bin\Debug\net7.0\CrmJovenes.Utilidades.pdb
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.csproj.AssemblyReference.cache
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.AssemblyInfoInputs.cache
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.AssemblyInfo.cs
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.csproj.CoreCompileInputs.cache
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.dll
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\refint\CrmJovenes.Utilidades.dll
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\CrmJovenes.Utilidades.pdb
+C:\net\crmjovenes\CrmJovenes.Utilidades\obj\Debug\net7.0\ref\CrmJovenes.Utilidades.dll

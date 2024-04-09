@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CrmJovenes.Modelos/1.0.0": {
+        "dependencies": {
+          "CrmJovenes.Utilidades": "1.0.0"
+        },
+        "runtime": {
+          "CrmJovenes.Modelos.dll": {}
+        }
+      },
+      "CrmJovenes.Utilidades/1.0.0": {
+        "runtime": {
+          "CrmJovenes.Utilidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CrmJovenes.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrmJovenes.Utilidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

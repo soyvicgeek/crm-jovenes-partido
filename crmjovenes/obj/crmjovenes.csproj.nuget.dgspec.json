@@ -4,14 +4,153 @@
     "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj": {}
   },
   "projects": {
-    "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj": {
+    "C:\\net\\crmjovenes\\CrmJovenes.AccesoDatos\\CrmJovenes.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj",
-        "projectName": "crmjovenes",
-        "projectPath": "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj",
+        "projectUniqueName": "C:\\net\\crmjovenes\\CrmJovenes.AccesoDatos\\CrmJovenes.AccesoDatos.csproj",
+        "projectName": "CrmJovenes.AccesoDatos",
+        "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.AccesoDatos\\CrmJovenes.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\EUREKA BRAIN\\.nuget\\packages\\",
-        "outputPath": "C:\\net\\crmjovenes\\crmjovenes\\obj\\",
+        "outputPath": "C:\\net\\crmjovenes\\CrmJovenes.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EUREKA BRAIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj": {
+                "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj"
+              },
+              "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj": {
+                "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj",
+        "projectName": "CrmJovenes.Modelos",
+        "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj",
+        "packagesPath": "C:\\Users\\EUREKA BRAIN\\.nuget\\packages\\",
+        "outputPath": "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EUREKA BRAIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj": {
+                "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj",
+        "projectName": "CrmJovenes.Utilidades",
+        "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\EUREKA BRAIN\\.nuget\\packages\\",
+        "outputPath": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EUREKA BRAIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +178,71 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj",
+        "projectName": "crmjovenes",
+        "projectPath": "C:\\net\\crmjovenes\\crmjovenes\\crmjovenes.csproj",
+        "packagesPath": "C:\\Users\\EUREKA BRAIN\\.nuget\\packages\\",
+        "outputPath": "C:\\net\\crmjovenes\\crmjovenes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EUREKA BRAIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\net\\crmjovenes\\CrmJovenes.AccesoDatos\\CrmJovenes.AccesoDatos.csproj": {
+                "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.AccesoDatos\\CrmJovenes.AccesoDatos.csproj"
+              },
+              "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj": {
+                "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Modelos\\CrmJovenes.Modelos.csproj"
+              },
+              "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj": {
+                "projectPath": "C:\\net\\crmjovenes\\CrmJovenes.Utilidades\\CrmJovenes.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -52,6 +256,10 @@
               "target": "Package",
               "version": "[7.0.2, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -59,6 +267,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
             }
           },
           "imports": [

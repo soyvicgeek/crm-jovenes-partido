@@ -1,0 +1,17 @@
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.AccesoDatos.deps.json
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.AccesoDatos.dll
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.AccesoDatos.pdb
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.Modelos.dll
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.Utilidades.dll
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.Modelos.pdb
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\bin\Debug\net7.0\CrmJovenes.Utilidades.pdb
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.csproj.AssemblyReference.cache
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.AssemblyInfoInputs.cache
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.AssemblyInfo.cs
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.csproj.CopyComplete
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.dll
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\refint\CrmJovenes.AccesoDatos.dll
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\CrmJovenes.AccesoDatos.pdb
+C:\net\crmjovenes\CrmJovenes.AccesoDatos\obj\Debug\net7.0\ref\CrmJovenes.AccesoDatos.dll
