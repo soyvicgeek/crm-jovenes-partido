@@ -93,8 +93,6 @@ C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Componen
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -181,14 +179,11 @@ C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Diagnost
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Features.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Hosting.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Http.dll
-C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -202,7 +197,6 @@ C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Options.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.Primitives.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\refs\Microsoft.JSInterop.dll
@@ -564,3 +558,8 @@ C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\CrmJovenes.Utilidades.dll
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\CrmJovenes.AccesoDatos.pdb
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\CrmJovenes.Modelos.pdb
 C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\CrmJovenes.Utilidades.pdb
+C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\SendGrid.dll
+C:\net\crmjovenes\crmjovenes\bin\Debug\net7.0\StarkbankEcdsa.dll
