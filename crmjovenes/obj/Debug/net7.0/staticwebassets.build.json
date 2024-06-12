@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gmxmq6iQ0esoNy2gwJ4xgAK0V+mCyOk64kEqd8NSI/4=",
+  "Hash": "fHQ7G3cym+jOfCbn/IoAslzEqC59bsbBRTa26dVV/fA=",
   "Source": "crmjovenes",
   "BasePath": "_content/crmjovenes",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\zona.js",
+      "SourceId": "crmjovenes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\",
+      "BasePath": "_content/crmjovenes",
+      "RelativePath": "js/zona.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\zona.js"
     },
     {
       "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

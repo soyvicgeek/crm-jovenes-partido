@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Zonas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="title">
+    <i class="bi bi-speedometer"></i>
+    <span class="text">Lista de Zonas</span>
+</div>
+
+<a class="btn btn-outline-primary" asp-action="Upsert">
+    <i class="bi bi-plus-square p-1"></i>Crear nueva Zona
+</a>
+
+<div class="p-4 border rounded bg-light scroll-table-container">
+    <table id="tblDatos" class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Estado</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section scripts{
+    <script src="~/js/zona.js"></script>
+}
+

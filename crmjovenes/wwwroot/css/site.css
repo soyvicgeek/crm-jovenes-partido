@@ -154,6 +154,8 @@ nav.close li a .link-name{
     width: calc(100% - 250px);
     padding: 10px 14px;
     transition: var(--tran-05);
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 nav.close ~ .dashboard {
@@ -219,6 +221,14 @@ nav.close ~ .dashboard .top{
     font-weight: 500;
     color: var(--text-color);
     margin-left: 10px;
+}
+
+.dataTables_length{
+    padding-bottom: 20px;
+}
+
+.dataTables_filter {
+    padding-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -317,5 +327,9 @@ nav.close ~ .dashboard .top{
     .sidebar-toggle {
         opacity: 0;
         pointer-events: none;
+    }
+
+    .scroll-table-container {
+        overflow-x: auto;
     }
 }
