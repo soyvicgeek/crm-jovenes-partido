@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configuracion\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CrmJovenes.Modelos\CrmJovenes.Modelos.csproj" />
     <ProjectReference Include="..\CrmJovenes.Utilidades\CrmJovenes.Utilidades.csproj" />
   </ItemGroup>
