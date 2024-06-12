@@ -4,14 +4,18 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="title">
-    <i class="bi bi-speedometer"></i>
-    <span class="text">Lista de Zonas</span>
-</div>
+<div class="headline-crm">
+    <div class="title">
+        <i class="bi bi-speedometer"></i>
+        <span class="text">Lista de Zonas</span>
+    </div>
 
-<a class="btn btn-outline-primary" asp-action="Upsert">
-    <i class="bi bi-plus-square p-1"></i>Crear nueva Zona
-</a>
+    <a class="btn-custom" asp-action="Upsert">
+        <span>
+            Crear nueva Zona
+        </span>
+    </a>
+</div>
 
 <div class="p-4 border rounded bg-light scroll-table-container">
     <table id="tblDatos" class="table table-hover">
