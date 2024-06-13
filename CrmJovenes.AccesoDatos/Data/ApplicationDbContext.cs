@@ -12,6 +12,7 @@ namespace crmjovenes.AccesoDatos.Data
         {
         }
         public DbSet<Zona> Zonas { get; set; }
+        public DbSet<UsuarioAplicacion> UsuarioAplicacion { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

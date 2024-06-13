@@ -9,6 +9,7 @@ namespace CrmJovenes.AccesoDatos.Repositorio.IRepositorio
     public interface IUnidadTrabajo : IDisposable
     {
         IZonaRepositorio Zona { get; }
+        IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
         Task Guardar();
     }
 }

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
+    },
+    {
       "Id": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\zona.js",
       "PackagePath": "staticwebassets\\js\\zona.js"
     },

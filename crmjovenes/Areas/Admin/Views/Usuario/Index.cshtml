@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="headline-crm">
+    <div class="title">
+        <i class="bi bi-speedometer"></i>
+        <span class="text">Lista de Usuarios</span>
+    </div>
+
+    <a class="btn-custom" asp-area="Identity" asp-page="/Account/Register">
+        <span>
+            Crear nuevo Usuario
+        </span>
+    </a>
+</div>
+
+<div class="p-4 border rounded bg-light scroll-table-container">
+    <table id="tblDatos" class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Correo Electrónico</th>
+                <th>Teléfono</th>
+                <th>Ciudad</th>
+                <th>Role</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section scripts{
+        <script src="~/js/usuario.js"></script>
+}

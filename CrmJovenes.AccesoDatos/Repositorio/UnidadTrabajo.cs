@@ -12,11 +12,13 @@ namespace CrmJovenes.AccesoDatos.Repositorio
     {
         private readonly ApplicationDbContext _db;
         public IZonaRepositorio Zona { get; set; }
+        public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
             Zona = new ZonaRepositorio(_db);
+            UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
         }
 
         public void Dispose()
