@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eXDxitf5yJCPuaxq+FEj28RkB991gvR+K7Oah5oNXUY=",
+  "Hash": "82w3Pbky73wC310+/GO3+GKdTbFJaQNHlVxaIwIgTaE=",
   "Source": "crmjovenes",
   "BasePath": "_content/crmjovenes",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\user.png"
+    },
+    {
+      "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\img\\wallpaper.jpeg",
+      "SourceId": "crmjovenes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\",
+      "BasePath": "_content/crmjovenes",
+      "RelativePath": "img/wallpaper.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\wallpaper.jpeg"
     },
     {
       "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\afiliado.js",

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\img\\user.png"
     },
     {
+      "Id": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\img\\wallpaper.jpeg",
+      "PackagePath": "staticwebassets\\img\\wallpaper.jpeg"
+    },
+    {
       "Id": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\afiliado.js",
       "PackagePath": "staticwebassets\\js\\afiliado.js"
     },
