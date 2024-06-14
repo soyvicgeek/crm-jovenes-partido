@@ -2,10 +2,13 @@
 using CrmJovenes.AccesoDatos.Repositorio.IRepositorio;
 using CrmJovenes.Modelos;
 using CrmJovenes.Utilidades;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace crmjovenes.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]
     public class ZonaController : Controller
     {
         private readonly IUnidadTrabajo _unidadTrabajo;

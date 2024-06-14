@@ -25,7 +25,7 @@
 
 body {
     min-height: 100vh;
-    background-color: var(--primary-color);
+    background-color: var(--panel-color);
 }
 
 ul, ol, li {
@@ -136,6 +136,11 @@ nav.close li a .link-name{
     pointer-events: none;
 }
 
+nav.close li form .link-name {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .nav-links li a:hover i,
 .nav-links li a:hover .link-name {
     color: var(--primary-color);
@@ -146,12 +151,43 @@ nav.close li a .link-name{
     border-top: 1px solid var(--border-color);
 }
 
-.logout-mode a:hover i,
-.logout-mode a:hover .link-name{
+.logout-mode .logout-btn button {
+    border: none;
+    background: none;
+}
+
+.logout-mode form {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+.logout-mode form i {
+    font-size: 24px;
+    min-width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--black-light-color);
+}
+
+.logout-mode form .link-name {
+    font-size: 18px;
+    font-weight: 400;
+    transition: var(--tran-05);
+    color: var(--black-light-color);
+}
+
+.logout-mode form:hover i,
+.logout-mode form:hover .link-name {
     color: var(--primary-color);
 }
 
-.logout-mode a:hover:before {
+.logout-mode form:hover:before {
     content: "";
     position: absolute;
     left: -7px;
@@ -323,7 +359,15 @@ nav.close ~ .dashboard .top{
         opacity: 0;
         pointer-events: none;
     }
+    nav li form .link-name{
+        opacity: 0;
+        pointer-events: none;
+    }
     nav.close li a .link-name {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    nav.close li form .link-name {
         opacity: 1;
         pointer-events: auto;
     }
@@ -373,6 +417,16 @@ nav.close ~ .dashboard .top{
     }
 
     nav.close li a .link-name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav li form .link-name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav.close li form .link-name {
         opacity: 0;
         pointer-events: none;
     }

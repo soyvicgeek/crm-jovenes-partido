@@ -3,10 +3,13 @@ using CrmJovenes.Modelos.ViewModels;
 using CrmJovenes.Modelos;
 using CrmJovenes.Utilidades;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace crmjovenes.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin + "," + DS.Role_Coordinador)]
     public class BrigadaController : Controller
     {
         private readonly IUnidadTrabajo _unidadTrabajo;

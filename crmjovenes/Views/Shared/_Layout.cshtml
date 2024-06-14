@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using CrmJovenes.Utilidades
+@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -17,32 +19,33 @@
 </head>
 <body>
 
-    <nav>
-        <div class="logo-name">
-            <div class="logo-image">
-                <img src="~/img/logo.png" alt="Logo Jovenes CRM"/>
+    @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Coordinador))
+    {
+        <nav>
+            <div class="logo-name">
+                <div class="logo-image">
+                    <img src="~/img/logo.png" alt="Logo Jovenes CRM" />
+                </div>
+                <span class="logo_name">PT CRM</span>
             </div>
-            <span class="logo_name">PT CRM</span>
-        </div>
 
-        <partial name="_SidebarMenuPartial" />
-    </nav>
+            <partial name="_SidebarMenuPartial" />
+        </nav>
+    }
 
     <section class="dashboard">
-        <div class="top">
-            <i class="bi bi-list sidebar-toggle"></i>
+        @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Coordinador))
+        {
+            <div class="top">
+                <i class="bi bi-list sidebar-toggle"></i>
 
-            <div></div>
+                <div></div>
 
-            <img src="~/img/user.png" alt="Imagen de Perfil"/>
-        </div>
-
+                <img src="~/img/user.png" alt="Imagen de Perfil" />
+            </div>
+        }
         <div class="dash-content">
             <div class="overview">
-                <!--<div class="title">
-                    <i class="bi bi-speedometer"></i>
-                    <span class="text">Panel de Control</span>
-                </div>-->
                 <partial name="_Notificaciones" />
                 @RenderBody()
             </div>
