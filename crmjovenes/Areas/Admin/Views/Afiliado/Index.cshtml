@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Afiliados";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="headline-crm">
+    <div class="title">
+        <i class="bi bi-speedometer"></i>
+        <span class="text">Lista de Afiliados</span>
+    </div>
+
+    <a class="btn-custom" asp-action="Upsert">
+        <span>
+            Nuevo Afiliado
+        </span>
+    </a>
+</div>
+
+<div class="p-4 border rounded bg-light scroll-table-container">
+    <table id="tblDatos" class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Telefóno</th>
+                <th>Dirección</th>
+                <th>Zona</th>
+                <th>Fecha</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section scripts{
+    <script src="~/js/afiliado.js"></script>
+}

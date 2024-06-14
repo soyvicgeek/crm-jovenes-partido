@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NUhC9uFLeQD4oqJoqEfynq/QzLBNE0Cjztb6H7Sdlaw=",
+  "Hash": "YBXhFopcpNsPuBibPDqSqx5KicvVIWy9SZDoCTU2fDI=",
   "Source": "crmjovenes",
   "BasePath": "_content/crmjovenes",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\user.png"
+    },
+    {
+      "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\afiliado.js",
+      "SourceId": "crmjovenes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\",
+      "BasePath": "_content/crmjovenes",
+      "RelativePath": "js/afiliado.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\afiliado.js"
     },
     {
       "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\site.js",

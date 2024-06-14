@@ -1,0 +1,164 @@
+﻿@model CrmJovenes.Modelos.ViewModels.AfiliadoVM
+@using CrmJovenes.Utilidades
+@{
+    ViewData["Title"] = "Actualizar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Afiliado";
+}
+
+<form method="post">
+    @if (Model.Afiliado.Id != 0)
+    {
+        titulo = "Editar Afiliado";
+        <input asp-for="Afiliado.Id" hidden />
+        @*<input asp-for="Afiliado.FechaRegistro" hidden />
+        <input asp-for="Afiliado.UsuarioAplicacionId" hidden />*@
+    }
+
+    <div class="border p-3">
+        <div asp-validation-sumary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <!--Nombres-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Nombres</label>
+                            <input asp-for="Afiliado.Nombres" class="form-control" />
+                            <span asp-validate-for="Afiliado.Nombres" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Apellido Paterno-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Apellido Paterno</label>
+                            <input asp-for="Afiliado.ApePat" class="form-control" />
+                            <span asp-validate-for="Afiliado.ApePat" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Apellido Materno-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Apellido Materno</label>
+                            <input asp-for="Afiliado.ApeMat" class="form-control" />
+                            <span asp-validate-for="Afiliado.ApeMat" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Campo Edad-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Edad</label>
+                            <input asp-for="Afiliado.Edad" class="form-control" />
+                            <span asp-validate-for="Afiliado.Edad" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Campo Telefóno-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Telefóno</label>
+                            <input asp-for="Afiliado.Telefono" class="form-control" />
+                            <span asp-validate-for="Afiliado.Telefono" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Campo Calle-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Calle</label>
+                            <input asp-for="Afiliado.Calle" class="form-control" />
+                            <span asp-validate-for="Afiliado.Calle" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Campo Número-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Número</label>
+                            <input asp-for="Afiliado.Numero" class="form-control" />
+                            <span asp-validate-for="Afiliado.Numero" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Campo Colonia-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Colonia</label>
+                            <input asp-for="Afiliado.Colonia" class="form-control" />
+                            <span asp-validate-for="Afiliado.Colonia" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Campo Municipio -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Municipio</label>
+                            <select class="form-control" asp-for="Afiliado.Municipio" class="form-select">
+                                <option disabled selected>--Selecciona un Municipio--</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Campo Estado -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Estado</label>
+                            <select class="form-control" asp-for="Afiliado.Estado" class="form-select">
+                                <option disabled selected>--Selecciona un Estado--</option>
+                                <option value="Michoacán">Michoacán</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Lista Zona-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Zona</label>
+                            <select asp-for="Afiliado.ZonaId" asp-items="@Model.ZonaLista" class="form-select">
+                                <option disabled selected>--Selecciona una Zona--</option>
+                            </select>
+                            <span asp-validate-for="Afiliado.ZonaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Campo Temp-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Temp</label>
+                            <input asp-for="Afiliado.UsuarioAplicacionId" class="form-control" />
+                            <span asp-validate-for="Afiliado.UsuarioAplicacionId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Botones-->
+                    <br />
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.Afiliado.Id != 0)
+                        {
+                            <partial name="_BotonesActualizarYRegresar" model="Model.Afiliado.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bg-info bi-plus-square-fill"></i>
+                                Crear
+                            </button>
+                            <a asp-action="Index" class="btn btn-success">
+                                <i class="bi bi-arrow-return-left"></i>
+                                Regresar
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
