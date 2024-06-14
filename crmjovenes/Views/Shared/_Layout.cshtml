@@ -18,7 +18,6 @@
     @*<link rel="stylesheet" href="-https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">*@
 </head>
 <body>
-
     @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Coordinador))
     {
         <nav>
@@ -33,7 +32,7 @@
         </nav>
     }
 
-    <section class="dashboard">
+    <section class="@(User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Coordinador) ? "dashboard" : "")">
         @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Coordinador))
         {
             <div class="top">
