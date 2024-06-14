@@ -1,0 +1,144 @@
+﻿@model CrmJovenes.Modelos.ViewModels.BrigadaVM
+@using CrmJovenes.Utilidades
+@{
+    ViewData["Title"] = "Brigada";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Brigada";
+}
+
+<form method="post">
+    @if (Model.Brigada.Id != 0)
+    {
+        titulo = "Editar Brigada";
+        <input asp-for="Brigada.Id" hidden />
+    }
+
+    <div class="border p-3">
+        <div asp-validation-sumary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <!--Descripción-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Descripción</label>
+                            <input asp-for="Brigada.Descripcion" class="form-control" />
+                            <span asp-validate-for="Brigada.Descripcion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!--Número de Personas-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Número de Personas</label>
+                            <input asp-for="Brigada.NumeroPersonas" class="form-control" />
+                            <span asp-validate-for="Brigada.NumeroPersonas" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Campo Localidad -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Localidad</label>
+                            <select class="form-control" asp-for="Brigada.Localidad" class="form-select">
+                                <option disabled selected>--Selecciona una Localidad--</option>
+                                <option value="La Hormiga">La Hormiga</option>
+                                <option value="El Peroncito">El Peroncito</option>
+                                <option value="Pirules">Pirules</option>
+                                <option value="Cedros">Cedros</option>
+                                <option value="La Fuente">La Fuente</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Campo Municipio -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Municipio</label>
+                            <select class="form-control" asp-for="Brigada.Municipio" class="form-select">
+                                <option disabled selected>--Selecciona un Municipio--</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Lista Zona-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Zona</label>
+                            <select asp-for="Brigada.ZonaId" asp-items="@Model.ZonaLista" class="form-select">
+                                <option disabled selected>--Selecciona una Zona--</option>
+                            </select>
+                            <span asp-validate-for="Brigada.ZonaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Campo Fecha -->
+                    <div class="form-group col-md-3" style="padding-top:14px;">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="Brigada.Fecha" class="form-control" id="fechaId" name="fechaId">
+                    </div>
+
+                    <!-- Campo Estado -->
+                    <div class="row mb-2 mt-2">
+                        <div class="form-group col-md-6">
+                            <label>Estado</label>
+                            <select class="form-control" asp-for="Brigada.Estado">
+                                <option value="true">Activado</option>
+                                <option value="false">Desactivado</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Botones-->
+                    <br />
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.Brigada.Id != 0)
+                        {
+                            <partial name="_BotonesActualizarYRegresar" model="Model.Brigada.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bg-info bi-plus-square-fill"></i>
+                                Crear
+                            </button>
+                            <a asp-action="Index" class="btn btn-success">
+                                <i class="bi bi-arrow-return-left"></i>
+                                Regresar
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        $("#btnConsultar").click(function () {
+            let fechaInicialId = document.getElementById("fechaInicioId").value;
+            let fechaFinalId = document.getElementById("fechaFinalId").value;
+            let productoId = document.getElementById("productoId").value;
+
+            if (fechaInicialId.toString() == '') {
+                swal("Error", "Ingrese una Fecha de Inicio", "error");
+                return false;
+            }
+            if (fechaFinalId.toString() == '') {
+                swal("Error", "Ingrese una Fecha Final", "error");
+                return false;
+            }
+
+            if (productoId.toString() == '') {
+                swal("Error", "Ingrese un Producto", "error");
+                return false;
+            }
+        });
+    </script>
+}

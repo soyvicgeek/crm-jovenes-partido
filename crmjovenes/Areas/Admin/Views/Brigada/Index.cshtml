@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Brigadas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="headline-crm">
+    <div class="title">
+        <i class="bi bi-speedometer"></i>
+        <span class="text">Lista de Brigadas</span>
+    </div>
+
+    <a class="btn-custom" asp-action="Upsert">
+        <span>
+            Nueva Brigada
+        </span>
+    </a>
+</div>
+
+<div class="p-4 border rounded bg-light scroll-table-container">
+    <table id="tblDatos" class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Descripción</th>
+                <th>N° Personas</th>
+                <th>Localidad</th>
+                <th>Municipio</th>
+                <th>Zona</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section scripts{
+    <script src="~/js/brigada.js"></script>
+}

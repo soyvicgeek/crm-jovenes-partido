@@ -11,6 +11,7 @@ namespace CrmJovenes.AccesoDatos.Repositorio.IRepositorio
         IZonaRepositorio Zona { get; }
         IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
         IAfiliadoRepositorio Afiliado { get; }
+        IBrigadaRepositorio Brigada { get; }
         Task Guardar();
     }
 }

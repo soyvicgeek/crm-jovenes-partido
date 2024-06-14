@@ -7,26 +7,16 @@ $(document).ready(function () {
 function loadDataTable() {
     datatable = $('#tblDatos').DataTable({
         "ajax": {
-            "url": "/admin/Afiliado/ObtenerTodos"
+            "url": "/admin/Brigada/ObtenerTodos"
         },
         "columns": [
-            {
-                "data": null,
-                "render": function (data, type, row) {
-                    return data.nombres + ' ' + data.apePat + ' ' + data.apePat;
-                }
-            },
-            { "data": "edad" },
-            { "data": "telefono" },
-            {
-                "data": null,
-                "render": function (data, type, row) {
-                    return `${data.calle} ${data.numero}, Col. ${data.colonia} ${data.municipio}, ${data.estado}`;
-                }
-            },
+            { "data": "descripcion" },
+            { "data": "numeroPersonas" },
+            { "data": "localidad" },
+            { "data": "municipio" },
             { "data": "zona.nombre" },
             {
-                "data": "fechaRegistro",
+                "data": "fecha",
                 "render": function (data, type, row) {
                     if (type === 'display' || type === 'filter') {
                         return formatDate(data);
@@ -35,14 +25,24 @@ function loadDataTable() {
                 }
             },
             {
+                "data": "estado",
+                "render": function (data) {
+                    if (data == true) {
+                        return "Activo";
+                    } else {
+                        return "Inactivo";
+                    }
+                },
+            },
+            {
                 "data": "id",
                 "render": function (data) {
                     return `
                         <div class="text-center">
-                            <a href="/Admin/Afiliado/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer;">
+                            <a href="/Admin/Brigada/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer;">
                                 <i class="bi bi-pencil-square"></i>
                             </a>
-                            <a onclick=Delete("/Admin/Afiliado/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer;">
+                            <a onclick=Delete("/Admin/Brigada/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer;">
                                 <i class="bi bi-trash3-fill"></i>
                             </a>
                         </div>
@@ -76,7 +76,7 @@ function loadDataTable() {
 
 function Delete(url) {
     swal({
-        title: "¿Estas seguro de eliminar el Afiliado?",
+        title: "¿Estas seguro de eliminar la Brigada?",
         text: "¡Este registro no se podrá recuperar!",
         icon: "warning",
         buttons: true,

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\afiliado.js"
     },
     {
+      "Id": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\brigada.js",
+      "PackagePath": "staticwebassets\\js\\brigada.js"
+    },
+    {
       "Id": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YBXhFopcpNsPuBibPDqSqx5KicvVIWy9SZDoCTU2fDI=",
+  "Hash": "eXDxitf5yJCPuaxq+FEj28RkB991gvR+K7Oah5oNXUY=",
   "Source": "crmjovenes",
   "BasePath": "_content/crmjovenes",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\afiliado.js"
+    },
+    {
+      "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\brigada.js",
+      "SourceId": "crmjovenes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\",
+      "BasePath": "_content/crmjovenes",
+      "RelativePath": "js/brigada.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\brigada.js"
     },
     {
       "Identity": "C:\\net\\crmjovenes\\crmjovenes\\wwwroot\\js\\site.js",
